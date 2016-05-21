@@ -1,0 +1,126 @@
+.pb-0{
+	padding-bottom: 0%;
+}
+
+.pt-5{
+	padding-top: 5%;
+}
+
+.pt-5{
+	padding-bottom: 5%;
+}
+
+.pd-5{
+	padding: 5%;
+}
+
+/*nav*/
+.navbar-default{
+	background-color: black;
+	border-color: #ff7b60;	
+}
+
+.navbar-nav{
+	float: right;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #f7edeb;
+}
+
+.navbar-brand{
+	padding: 0%;
+}
+
+.logo{
+	height: 110%;
+}
+
+.trab-juntos{
+	background-color: #14c6cc;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.trab-juntos:hover{
+	color: #f7edeb;
+}
+
+/*intro-section*/
+.intro-section{
+	background-image: url("../img/fondoIn.jpeg");
+	background-size: cover;
+	color: #ffffff;
+	background-attachment: fixed;
+}
+
+.intro-section h1{
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.flecha{
+	font-size: 30px;
+	color: white;
+}
+
+/*about-section*/
+.about-section{
+	background-color: #ffffff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.about-section img{
+	width: 70%;
+}
+
+.services-section .container{
+	width: 100%;
+}
+
+.services-section .container .col-md-4{
+	padding: 0%;
+}
+
+.services-section .col-md-4 h4{
+	padding-top: 55%;
+	padding-bottom: 5%;
+}
+
+/*services-section*/
+.services-section a{
+	text-decoration: none;
+}
+
+.web{
+	background-image: url("../img/web.jpg");
+	background-size: cover;
+}
+
+.marcas{
+	background-image: url("../img/marcas.jpg");
+	background-size: cover;
+}
+
+.social{
+	background-image: url("../img/social.jpeg");
+	background-size: cover;
+}
+
+/*contact-section*/
+.contact-section{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.contact-section .container{
+	padding-right: 20%;
+	padding-left: 20%;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Styloops</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="img/logo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Porque elegirnos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Planes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll trab-juntos" href="#contact">Trabajemos juntos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Que tu negocio no tenga fronteras</h1>
+                    <a class="page-scroll pb-0" href="#about"><i class="glyphicon glyphicon-chevron-down flecha"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Porque elegirnos -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Somos un equipo de emprendedores como tú, <br>crezcamos juntos.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="img/1.png">
+                </div>    
+                <div class="col-xs-4">
+                    <img src="img/2.png">
+                </div>   
+                <div class="col-xs-4">
+                    <img src="img/3.png">
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">                
+                    <div class="col-md-4 web">
+                        <h4>Diseño web</h4>
+                    </div>
+                    <div class="col-md-4 marcas">
+                        <h4>Diseño de marca</h4>
+                    </div>
+                    <div class="col-md-4 social">
+                        <h4>Social media</h4>
+                    </div>               
+            </div>
+            <div class="row pd-5 pt-5">
+                <div class="col-md-8">
+                    <h4>Te ayudamos a conquistar el mundo.</h4>                    
+                </div>
+                <div class="col-md-4">
+                    <a class="page-scroll trab-juntos pd-5" href="#contact">Trabajemos juntos</a>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabajemos juntos -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Trabajemos juntos</h3>
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control" id="inputPhone" placeholder="Teléfono">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <textarea class="form-control" id="textarea" placeholder="Mensaje" rows="3"></textarea>
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <button type="submit" class="btn btn-default">Enviar</button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
