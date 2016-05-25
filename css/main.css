@@ -122,6 +122,11 @@
 .about-section img{
 	width: 70%;
 }
+.anim{
+    position: relative;
+    width: 100%;
+    top: -150px;
+}
 
 .services-section .container{
 	width: 100%;
@@ -176,5 +181,21 @@ hr{
 }
 
 #cohete{
-	width: 25%;
+    position: relative;
+    width: 25%;
+}
+
+.testCohete{
+    animation: coheteX 12000ms  linear;
+}
+@keyframes coheteX {
+    0%{
+        transform: scale(2) rotate(-45deg);
+        bottom:0px;
+    }
+    100%{
+        bottom:100px;
+        transform: scale(1) rotate(-45deg);;
+
+    }
 }
