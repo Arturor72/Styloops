@@ -57,7 +57,7 @@
 /*intro-section*/
 .intro-section{
     background: url("../img/fondo.jpeg") fixed;
-    background-size: cover;
+    background-size:cover;
     color: #ffffff;
 	padding: 0;
 }
@@ -71,13 +71,45 @@
 	margin-top: 15%;
 	margin-bottom: 15%;
     color: #f5f5f5;
-	font: 400 2.875em/1.30435 "Ubuntu Light", sans-serif;
+    hyphens: auto;
 }
 
+@media(max-width: 750px) {
+    .intro-section .container h1 {
+        margin-top: 80%;
+        margin-bottom: 15%;
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 970px) and (min-width: 750px){
+    .intro-section .container h1 {
+        margin-top: 40%;
+        margin-bottom: 15%;
+        font-size: 3em;
+    }
+}
+
+@media(max-width: 1170px) and (min-width: 970px){
+    .intro-section .container h1 {
+        margin-top: 25%;
+        margin-bottom: 15%;
+        font-size: 3em;
+    }
+}
+@media(min-width: 1170px){
+    .intro-section .container h1 {
+        margin-top: 20%;
+        margin-bottom: 15%;
+        font-size: 3em;
+    }
+}
 .flecha{
 	font-size: 30px;
 	color: white;
 }
+/* end intro-section*/
+
 
 /*about-section*/
 .about-section{
