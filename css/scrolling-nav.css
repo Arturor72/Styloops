@@ -41,7 +41,7 @@ of those sections to manage the look and feel of the site. */
 .about-section {
     
     text-align: center;
-    background: #eee;
+    background: #F7F9F9;
 }
 
 .services-section {
@@ -52,5 +52,5 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     text-align: center;
-    background: #eee;
+    background: #F7F9F9;
 }

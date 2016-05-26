@@ -1,3 +1,7 @@
+body{
+    font-family:  "Ubuntu Light","sans-serif";
+
+}
 .pb-0{
 	padding-bottom: 0%;
 }
@@ -118,7 +122,9 @@
 	padding-bottom: 5%;
 	text-align: center;
 	height: 100%;
+    color:#337AB7;
 }
+
 .about-section img{
 	width: 70%;
 }
@@ -128,6 +134,12 @@
     top: -150px;
 }
 
+hr{
+    background-color: #337ab7;
+    color:#337AB7;
+}
+
+/*services-section*/
 .services-section .container{
 	width: 100%;
 }
@@ -136,14 +148,19 @@
 	padding: 0%;
 }
 
-.services-section .col-md-4 h4{
+.services-section .col-md-4 h2{
 	padding-top: 55%;
 	padding-bottom: 5%;
 }
 
-/*services-section*/
+
 .services-section a{
 	text-decoration: none;
+}
+
+.services-section .container .row .container{
+    background-color: rgba(25, 25, 25, .5);
+    color: #f7f7f7;
 }
 
 .web{
@@ -153,31 +170,52 @@
 
 .marcas{
 	background-image: url("../img/marcas.jpg");
-	background-size: cover;
+    background-size: cover;
+
 }
 
 .social{
 	background-image: url("../img/social.jpeg");
-	background-size: cover;
+    background-size: cover;
+
 }
 
 /*contact-section*/
+
+
+
 .contact-section{
-	padding-top: 5%;
-	padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .contact-section .container{
-	padding-right: 20%;
-	padding-left: 20%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
-.about-section{
-    color:#337AB7;
+
+#contact .form-control {
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    box-shadow: none;
+    font-size: 1em;
+    text-align: center;
+    height: 27px;
+    color: #6d6d6d;
+}
+#contactSubmit{
+    background-color: #14C6CC;
+    border-radius: 50%;
+    border-color: #14C6CC;
+    height: 65px;
 
 }
-hr{
-	background-color: #337ab7;
-	color:#337AB7;
+#contactSubmit:hover{
+    background-color: #13aaad;
+    border-radius: 50%;
+    height: 65px;
 }
 
 #cohete{
